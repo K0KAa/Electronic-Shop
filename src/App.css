@@ -17,6 +17,10 @@
     text-transform: capitalize;
 }
 
+.text-main {
+    color: var(--primaryColor);
+}
+
 body {
     font-family: "Open Sans", sans-serif !important;
     background: var(--mainGrey) !important;

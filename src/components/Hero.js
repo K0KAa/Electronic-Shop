@@ -8,7 +8,7 @@ export default function Hero({ img, title, max, children }) {
       <HeroWrapper max={max} img={img}>
         <div className="banner">
           <h1 className="title">{title}</h1>
-          {[children]}
+          {children}
         </div>
       </HeroWrapper>
     </>
